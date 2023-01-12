@@ -1,0 +1,250 @@
+.chat-app-container {
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: row;
+}
+
+@media screen and (max-width: 768px) {
+  .nav-side-bar {
+    display: none;
+  }
+}
+
+.nav-side-bar {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 10px;
+}
+.icon-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: rgb(154, 209, 191);
+  height: 50px;
+  width: 50px;
+  padding: 5px;
+  border-radius: 50px;
+  align-self: center;
+}
+.nav-icon {
+  background-color: #4d7d6f;
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 15px;
+}
+.nav-user-icon-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.nav-user-name {
+  font-family: 'Roboto';
+  font-weight: bold;
+  color: #4a4648;
+  margin-left: 10px;
+}
+.designation {
+  font-family: 'Roboto';
+  color: #6b6267;
+  margin-left: 10px;
+}
+.conversations-heading-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.conversation-heading {
+  font-family: 'Roboto';
+  color: #4a4648;
+  font-weight: bold;
+  font-size: 20px;
+}
+.plus-icon {
+  font-size: 20px;
+  margin-top: 20px;
+}
+.hash-icon {
+  background-color: #e1e3e1;
+  font-size: 40px;
+  padding: 13px;
+  border-radius: 10px;
+}
+.heading-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.conversation-name {
+  font-family: 'Roboto';
+  color: #4a4648;
+  font-weight: bold;
+  margin-left: 10px;
+  margin-bottom: 15px;
+}
+.introduction-heading-container {
+  background-color: #4e9ae6;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin-bottom: 10px;
+  align-items: center;
+  padding-left: 10px;
+}
+.introduction-hash-icon {
+  background-color: #5188bd;
+  font-size: 40px;
+  padding: 13px;
+  border-radius: 10px;
+  color: #ffffff;
+}
+.introduction-conversation-name {
+  font-family: 'Roboto';
+  color: #ffffff;
+  font-weight: bold;
+  margin-bottom: 15px;
+  padding: 5px;
+}
+.chat-box-container {
+  background-color: #e1e3e1;
+  width: 80%;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.chat-box-nav-container {
+  border-bottom: 1px solid #6d736d;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.nav-user-account-icon-container {
+  display: flex;
+}
+
+.user-account-icon {
+  font-size: 40px;
+  align-self: center;
+}
+
+.input-text-field {
+  width: 100%;
+  height: 40px;
+  border-radius: 20px;
+  border: none;
+  padding-left: 15px;
+  font-family: 'Roboto';
+  color: #6d736d;
+  font-weight: bold;
+  font-size: 16px;
+  outline: none;
+  background-color: transparent;
+}
+
+.messages-container-list {
+  list-style-type: none;
+  height: 100vh;
+  overflow-y: auto;
+}
+
+.list-item {
+  margin-bottom: 10px;
+}
+
+.user-details {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 20%;
+}
+.user-icon-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: rgb(154, 209, 191);
+  height: 50px;
+  width: 50px;
+  padding: 5px;
+  border-radius: 50px;
+}
+.user-icon {
+  font-size: 20px;
+  color: #ffffff;
+  align-self: center;
+  font-family: 'Roboto';
+  font-weight: bold;
+}
+
+.message-container {
+  background-color: #ffffff;
+  border-bottom-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  margin-left: 60px;
+  padding: 10px;
+}
+
+.message {
+  font-family: 'Roboto';
+  font-weight: 600;
+  color: #746e75;
+  width: 50%;
+}
+
+.user-name {
+  font-family: 'Roboto';
+  font-weight: bold;
+  color: #746e75;
+}
+.message-send-time {
+  font-family: 'Roboto';
+  color: #4a4648;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: row;
+  border: 2px solid #4a4648;
+  background-color: transparent;
+  border-radius: 20px;
+}
+
+.emoji-button {
+  background-color: transparent;
+  border: none;
+  color: #000000;
+  font-size: 20px;
+  margin-right: 10px;
+}
+.like-button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  margin-left: 10px;
+}
+
+.at-the-date-btn {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  font-size: 20px;
+}
+
+.trigger-button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  align-self: flex-end;
+}
+
+.popup-element-container {
+  height: 300px;
+  width: 230px;
+}
+
+.popup-container {
+  border-radius: 5px;
+}
